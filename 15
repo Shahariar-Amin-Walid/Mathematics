@@ -1,0 +1,17 @@
+Basically there are two kinds of line.
+     01.Vertical
+     02.Horizontal
+we can represent the diagram with binary value."1" for horizontal and "0"for vertical.A starting point has to follow (m X n) binary value
+to go to the end point where m is the number of rows and n is the number of column.
+For example in a 2X2 grid we have to go through 2 vertical line(binary value 0),and two horizontal line(binary value 1).
+The number of routes will be the number of permutation of binary 0,and 1.
+in 2X2 grid the number of total routes is=(2*2)!/(2!)*(2!) 
+                                         =(4!)/(2!)^2 
+                                         =(4!)/4 
+                                         =3! 
+                                         =6(Ans).
+we have to find the result for 20 X 20 grid.
+in 20 X 20 grid the number of total routes is=(2*20)!/(20!)*(20!)
+                                             =(40!)/(20!)^2
+                                             =137846528820(Ans).
+The code for this problem is very easy.So I dont show the code here. 
